@@ -63,7 +63,7 @@ ________________________________________________________________________________
   
 blueSCSI (evolved)  offers you three way to install an SD Card reader on your board:  
 1 - SMD MicroSD Card Slot: the best option if you have SMD soldering skills, the part should be easily sourced from eB4y and 4li3xpress, you can recognize it from the two plastic dots under it;  
-2 - MicroSD -> SD Adapter: the best option if you DON'T have SMD soldering skills, just solder an header like the photo and solder everything on the board;
+2 - MicroSD -> SD Adapter: the best option if you DON'T have SMD soldering skills, just solder an header like the photo and solder everything on the board;  
 3 - Pin header: the best option if you want to keep an adapter/reader out your Mac with wires, extremely useful if you want to exchange the SD card without disassembling your Macintosh computer.  
   
 ![front](pictures/three-ways-sd-card-reader.png)  
@@ -72,7 +72,7 @@ ________________________________________________________________________________
     
 Yes, indeed you can, just find yourself a way to do it, like the example below.  
   
-blueSCSI (evolved) with a daisy-chain adapter (RaSCSI Reloaded THT PCB cutted board) going to a Macintosh Quadra 700 and a SCSI2SD attached to the blueSCSI's DB-25 port:  
+blueSCSI (evolved) with a daisy-chain adapter (cute RaSCSI Reloaded THT PCB board) going to a Macintosh Quadra 700 and a SCSI2SD attached to the blueSCSI's DB-25 port:  
   
 ![front](pictures/bluescsi-evolved-daisy-chaining.png)  
 __________________________________________________________________________________________________________  
@@ -80,16 +80,16 @@ ________________________________________________________________________________
   
 blueSCSI (evolved) gives you the ability to install it into your PowerBook laptop.  
   
-Install a 2.0mm pin header, maybe a 90° degree one, install it accordingly to your PowerBook SCSI connector (40 pin or 50).  
+Install a 2.0mm pin header, maybe a 90° degree one, accordingly to your PowerBook SCSI connector (40 pin or 50).  
   
-After you installed it, cut the "boxed" pins like the example:  
+After you installed it, cut the "boxed" pins like this 40 pin install example:  
 
 ![front](pictures/bluescsi-Powerbook-CUT-THIS-PIN.png)  
   
 As you can see from the back of the board, you can install a diode in D6 and then short JP3 to power the entire board from PowerBook's 5V pins.  
 During tests this worked, but wasn't mandatory as the board also powered itself from TERMPWR/TPWR pin on PowerBook connector: if this way works for you (D5 must be present) omit shorting JP3 and soldering D6.  
   
-LED feature was inspired from the original RaSCSI Reloaded 2.4 board but I didn't tested this yet, use this feature at your own risk.
+LED feature was inspired from the original RaSCSI Reloaded 2.4 board but I didn't tested this yet, use this feature at your own risk.  
 To connect EXTERNAL_LED (STM32 pin 5 / A0) to PB_LED (PB pin 8) just short JP4.    
   
 ![front](pictures/bluescsi-powerbook-header-back.png)  
