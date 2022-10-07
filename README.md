@@ -61,7 +61,7 @@ It's simple, really.
 __________________________________________________________________________________________________________  
 ## **How to install an SD card slot?**  
   
-blueSCSI (evolved)  offers you three way to install an SD Card reader on your board:  
+blueSCSI (evolved)  offers you three ways to install an SD Card reader on your board:  
 1 - SMD MicroSD Card Slot: the best option if you have SMD soldering skills, the part should be easily sourced from eB4y and 4li3xpress, you can recognize it from the two plastic dots under it;  
 2 - MicroSD -> SD Adapter: the best option if you DON'T have SMD soldering skills, just solder an header like the photo and solder everything on the board;  
 3 - Pin header: the best option if you want to keep an adapter/reader out your Mac with wires, extremely useful if you want to exchange the SD card without disassembling your Macintosh computer.  
