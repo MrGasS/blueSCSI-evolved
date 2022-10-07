@@ -72,7 +72,7 @@ ________________________________________________________________________________
     
 Yes, indeed you can, just find yourself a way to do it, like the example below.  
   
-blueSCSI (evolved) with a daisy-chain adapter (cutted RaSCSI Reloaded THT PCB board) going to a Macintosh Quadra 700 and a SCSI2SD attached to the blueSCSI's DB-25 port:  
+blueSCSI (evolved) with an internal 50 pin to DB-25 female adapter (cutted RaSCSI Reloaded THT PCB board) going to a Macintosh Quadra 700 and a SCSI2SD attached to the blueSCSI's DB-25 port:  
   
 ![front](pictures/bluescsi-evolved-daisy-chaining.png)  
 __________________________________________________________________________________________________________  
