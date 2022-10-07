@@ -1,6 +1,6 @@
 # **blueSCSI (evolved) by MrGasS aka S.E.M.M.**  
   
-![front](pictures/bluescsi-evolved-logo7ott22.png)  
+![front](pictures/bluescsi-evolved-blacklogo7ott22.png)  
   
 blueSCSI (evolved) is a PCB based on the original Eric Helgeson's BlueSCSI schematics and board, this PCB aims to be a 3-in-1 (Internal 50 pin, external DB-25 and internal PowerBook) BlueSCSI device.  
   
