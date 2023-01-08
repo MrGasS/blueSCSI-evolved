@@ -48,8 +48,8 @@ ImageSet3 / ALL ON.
 __________________________________________________________________________________________________________  
 ## **Using RaSCSI and BlueSCSI together**  
   
-If you have an internal BlueSCSI with termination enabled into your Macintosh and a RaSCSI board externally attached to it, please, remove termination from the external RaSCSI board, or you could face weird behaviors from your Mac while loading the OS.  
-Even if you'll face weird problems with an internal SCSI2SD or a typical hard disk drive, please, try to remove termination from the BlueSCSI or the RaSCSI.  
+If you have an internal BlueSCSI with termination enabled into your Macintosh and a RaSCSI board externally attached to it or viceversa and you're facing weird issues, please, remove termination to a card of your choice.  
+  
 __________________________________________________________________________________________________________  
 ## **How to make a resistor net?**  
   
@@ -70,7 +70,7 @@ blueSCSI (evolved)  offers you three ways to install an SD Card reader on your b
 __________________________________________________________________________________________________________  
 ## **Can I daisy-chain my blueSCSI (evolved) board?**  
     
-Yes, indeed you can, just find yourself a way to do it, like the example below.  
+Yes, you can indeed, just find yourself a way to do it, like the example below.  
   
 blueSCSI (evolved) with an internal 50 pin to DB-25 female adapter (cutted RaSCSI Reloaded THT PCB board) going to a Macintosh Quadra 700 and a SCSI2SD attached to the blueSCSI's DB-25 port:  
   
@@ -105,4 +105,4 @@ blueSCSI (evolved) v1.0 - front view:
 blueSCSI (evolved) v1.0 - back view:  
 ![back](pictures/blueSCSI-evolved-v1-0-BACK.png)  
   
-*Latest README.md update: 7oct2022*  
+*Latest README.md update: 8jan2023*  
